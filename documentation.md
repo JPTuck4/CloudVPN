@@ -97,15 +97,33 @@ cd ~/wireguard/
 docker-compose up -d
 ```
 
-## 5: Connect Devices to VPN:
+## 5: Connect Mobile Device to VPN:
 ```
 docker-compose logs -f wireguard
 ```
 Open Wireguard VPN application on your phone, click +, Create from QR code
 
 Before:
-![Alt text](before.png?raw=true)
+
+<img src="image2.png?raw=true&s=10" width="300">
+
 
 After:
-![Alt text](after.png?raw=true)
-![Alt text](active.png?raw=true)
+
+<img src="image0.png?raw=true&s=10" width="300">
+<img src="image1.png?raw=true&s=10" width="300">
+
+## 6: Connect PC to VPN:
+Download wireguard on laptop
+
+Open config file
+```
+cat ~/wireguard/config/peer_pc1/peer_pc1.conf
+```
+
+Copy contents and paste into empty tunnel in wireguard
+
+Activate Tunnel
+
+<img src="Capture.png?raw=true&s=10" width="300">
+<img src="Capture1.png?raw=true&s=10" width="300">
