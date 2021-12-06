@@ -125,5 +125,5 @@ Copy contents and paste into empty tunnel in wireguard
 
 Activate Tunnel
 
-<img src="Capture.png?raw=true&s=10" width="300">
-<img src="Capture1.png?raw=true&s=10" width="300">
+<img src="Capture.PNG?raw=true&s=10" width="1000">
+<img src="Capture1.PNG?raw=true&s=10" width="500">
